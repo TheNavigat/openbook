@@ -7,29 +7,6 @@
 
 using namespace std;
 
-struct contents {
-  int x1;
-  short int x2;
-  int x3;
-  char x4[1];
-  char x5[1];
-  char x6[1];
-  char x7[2];
-  char x8[1];
-  char x9[1];
-  char x10[4];
-  char x11[1];
-  char x12[2];
-  char x13[2];
-  char x14[2];
-  char x15[1];
-  char x16[1];
-  char x17[1];
-  char x18[2];
-  char x19[2];
-  char x20[2];
-};
-
 template <class T>
 void endswap(T *objp)
 {
@@ -38,8 +15,6 @@ void endswap(T *objp)
 }
 
 int main() {
-
-
 	vector<char> buffer(69); // create a buffer
 	string line;
 
